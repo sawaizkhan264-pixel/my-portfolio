@@ -1,57 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
+/* Body aur font style */
+body { 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
 }
 
-header {
-    margin-top: 40px;
+/* Titles ko bada aur bold karein */
+h2 { 
+    font-size: 28px; 
+    color: #2c3e50; 
+    text-align: center; 
 }
 
-.highlight {
-    color: #ff5722; /* Orange color aapke naam ke liye */
+h3 { 
+    font-size: 22px; 
+    margin-bottom: 5px; 
 }
 
-.about-section {
-    background: white;
-    max-width: 400px;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+/* Skills section ka font */
+ul { 
+    font-size: 18px; 
+    font-weight: bold; 
 }
 
-.profile-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; /* Image ko bilkul gol karne ke liye */
-    object-fit: cover;
-    border: 3px solid #ff5722;
-}
-
-button {
-    background-color: #007bc4;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: #005fa3; /* Hover karne par dark color */
-}
-.my-button {
-    text-decoration: none;
+/* Button ka size */
+.my-button { 
+    padding: 12px 25px; 
+    font-size: 16px; 
+    background: #007bff; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
     display: inline-block;
-    
-    background-color: #007bc4;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 25px;
+    margin-top: 10px;
 }
+
+
