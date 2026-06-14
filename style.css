@@ -1,78 +1,27 @@
+/* Resetting everything to fix the layout */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
-    color: #333;
-    text-align: center;
-    padding: 20px;
     margin: 0;
-}
-
-header {
-    margin-top: 40px;
-}
-
-.highlight {
-    color: #ff5722; /* Orange color aapke naam ke liye */
-}
-
-.about-section {
-    background: white;
-    max-width: 400px;
-    margin: 30px auto;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f4f4f4;
 }
 
-.profile-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; /* Image ko bilkul gol karne ke liye */
-    object-fit: cover;
-    border: 3px solid #ff5722;
+h2 { color: #333; text-align: center; }
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
-button {
-    background-color: #007bc4;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background-color: #005fa3; /* Hover karne par dark color */
-}
 .my-button {
-    text-decoration: none;
-    display: inline-block;
-    
-    background-color: #007bc4;
+    background: #007bff;
     color: white;
-    padding: 12px 24px;
-    border-radius: 25px;
-}
-/* General styling */
-body { font-family: sans-serif; line-height: 1.6; padding: 20px; }
-
-/* Sections */
-section { margin-bottom: 40px; padding: 20px; border-bottom: 1px solid #ccc; }
-
-/* Images */
-.profile-img { width: 150px; border-radius: 50%; }
-
-/* Buttons */
-.my-button { 
-    display: inline-block; 
-    padding: 10px 20px; 
-    background: #007bff; 
-    color: white; 
-    text-decoration: none; 
-    border-radius: 5px; 
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-/* Project Cards */
-.project-card { border: 1px solid #ddd; padding: 15px; margin-top: 10px; border-radius: 8px; }
