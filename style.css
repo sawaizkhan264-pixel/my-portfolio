@@ -23,5 +23,18 @@ h2 { color: #333; text-align: center; }
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
+}ul {
+    list-style-type: disc; /* Bullet points wapas lane ke liye */
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
 }
+.my-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
 
