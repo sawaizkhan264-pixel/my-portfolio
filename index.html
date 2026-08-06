@@ -13,7 +13,25 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+body {
+    position: relative;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #111; /* Text color ko thoda dark ya solid karein */
+}
 
+/* Yeh overlay poori screen par ek halka tint le aayega taake text clear dikhe */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75); /* Light overlay (agar dark theme chahiye toh rgba(0,0,0,0.6) kar dein) */
+    z-index: -1;
+}
+        
 
         .projects-container {
             display: flex;
